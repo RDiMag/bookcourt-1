@@ -81,8 +81,8 @@ span{
 
 p{
      font-size: 1.5em;
-     max-width: 60%;
      align-self: center;
+     padding: 0 8em;
 }
 
 .social{
@@ -104,6 +104,9 @@ footer {
      }
      nav, ul {
           flex-direction: column;
+     }
+     p{
+          padding: 0 1em;
      }
    }
    
