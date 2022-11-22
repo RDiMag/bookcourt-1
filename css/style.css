@@ -136,8 +136,10 @@ a {
        margin: 15% auto; /* 15% from the top and centered */
        padding: 20px;
        border: 1px solid #888;
-       width: 80%;
-       background-color: rgb(251, 247, 240);
+       border-radius: 4px;
+       width: 60%;
+       background-color: rgb(248, 247, 247);
+       vertical-align: middle;
      }
      
 button,
@@ -155,10 +157,11 @@ textarea {
 /* Submit button styling */
 
 input#submit{
-     background-color: rgba(249, 227, 190, 0.795);
+     background-color: rgba(155, 218, 249, 0.405);
      font-weight: bold;
      width: 150px;
-     border-radius: 12px;
+     border-radius: 8px;
+     height: 2em;
 }
 
 form {
