@@ -20,10 +20,8 @@
     <header>
       <nav>
         <h1>Book Court Book Club</h1>
-
         <ul>
           <li><a href="about.html" class="nav">About Us</a></li>
-          <li class="nav">Contact</li>
         </ul>
       </nav>
     </header>
@@ -46,7 +44,36 @@
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
+
+      <!-- Modal button -->
+      <p>
+        <button id="myBtn">Contact Form</button>
+      </p>
+
+      <!-- Modal -->
+      <div id="modal" class="modal">
+        <!-- Modal content -->
+
+        <div class="modal-content">
+          <p>Complete the form below to send an email:</p>
+          <span class="close">&times;</span>
+
+          <form>
+            <label for="fname">First name:</label><br />
+            <input type="text" id="fname" name="fname" /><br />
+            <label for="lname">Last name:</label><br />
+            <input type="text" id="lname" name="lname" />
+            <label for="text">Message:</label></br />
+            <textarea name="message" title="message" rows="10" cols="30">
+            </textarea>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+
+      <!-- Modal -->
     </section>
+
     <footer>
       <small>&copy; Rachel DiMaggio 2022</small>
     </footer>
