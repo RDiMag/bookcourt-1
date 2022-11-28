@@ -157,7 +157,7 @@ li.social a:hover {
    }
    
 
-p{
+section.main > p{
      font-size: 1.5em;
      align-self: center;
      padding: 0 8em;
@@ -170,6 +170,46 @@ a {
 .social{
      text-align: center;
 }
+
+/* About Page */
+
+div{
+     border: 2px purple solid;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+.container{
+     background-color: rgb(200, 200, 200);
+     /* display: flex; */
+     gap: 1em;
+     padding: 0 6em;
+}
+
+span.about{
+     border: blue 2px solid;
+     display: flex;
+     align-items: center;
+     font-size: 2em;
+     font-family: 'Calibri Light';
+}
+
+.bio{
+     color: green;
+     font-size: .8em;
+     text-align: left;
+     margin: 1em;
+}
+
+img.portrait{
+     border-radius: 50%;
+     margin: .25em;
+     height: 6em;
+     padding: .5em;
+}
+
+/* Modal Styling */
 
 .modal {
      display: none; /*hidden by default */
@@ -262,11 +302,23 @@ footer {
      p{
           padding: 0 1em;
      }
+     span.about {
+          flex-direction: column;
+     }
+     .container{
+          padding: 0em;
+     }
    }
    
    @media screen and (max-width: 420px) {
      body {
        background-color: rgb(109, 190, 230);
+     }
+     span.about {
+          flex-direction: column;
+     }
+     .container{
+          padding: 0em;
      }
    }
    
