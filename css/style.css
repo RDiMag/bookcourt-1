@@ -301,9 +301,6 @@ footer {
 /*******************************************/
 
 @media screen and (max-width: 928px) {
-     body {
-       background-color: rgb(236, 180, 180);
-     }
      nav, ul {
           flex-direction: column;
      }
@@ -321,9 +318,6 @@ footer {
    }
    
    @media screen and (max-width: 420px) {
-     body {
-       background-color: rgb(109, 190, 230);
-     }
      span.about {
           flex-direction: column;
      }
