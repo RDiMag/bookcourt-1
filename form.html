@@ -21,27 +21,24 @@
       <h1><a href="index.html" class="nav">Book Court Book Club</a></h1>
       <h2>Suggest A Book!</h1>
     </header>
-
+  
   <section class="form-container">
-
+   
     <div class=contact-form>
+
       <form method="post" action="https://forms.un-static.com/forms/7d2bbb06fc9ff16e29a9b6c2c051203ffbde84ac" class="form">
-        <div id="name">
-          <label for="fname">First name:</label><br />
-          <input type="text" id="fname" name="fname" /><br />
-          <label for="lname">Last name:</label><br />
-          <input type="text" id="lname" name="lname" /><br />
-          <label for="email">Email:</label><br />
-          <input type="email" id="email" name="email" /><br />
-        </div>
-        <div id="message"> 
-          <label for="text">Message:</label></br />
-          <textarea name="message" title="message" rows="4" cols="30">
-          </textarea>
-        </div>
-      
-        <input type="submit" id="submit" value="Submit" />
+        <label for="name" class="visuallyhidden">Name: </label>
+        &nbsp;
+        <input name="name" type="text" placeholder="Name">
+        <label for="email" class="visuallyhidden">Email: </label>
+        <input name="email" type="email" placeholder="Email">
+        <label for="comment" class="visuallyhidden">Comment: </label>
+        <textarea name="comment" placeholder="What should we read next?" rows="5" cols="50"></textarea>
+        <button type="submit" href="/">Submit</button>       
       </form>
       
     </div>
+
   </section>
+
+  <small>Photo by Glen Noble on Unsplash</small>

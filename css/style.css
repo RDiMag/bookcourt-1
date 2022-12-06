@@ -169,6 +169,11 @@ a {
      text-align: center;
 }
 
+span.suggestion{
+     font-size: 1.2em;
+     
+}
+
 /**********************************/
 /* About Page */
 /**********************************/
@@ -218,6 +223,7 @@ img.portrait{
 footer {
      font-family: Helvetica;
      text-align: center;
+     padding-top: 2em;
 }
 
 /**********************************/
@@ -225,33 +231,47 @@ footer {
 /**********************************/
 
 input, select, textarea, label {
-     padding: 0;
-     margin: 0;
+     padding: 0.5em;
+     margin: 0.4em 0;
      outline: none;
+     border: solid 2px rgba(128, 128, 128, 0.662);
      font-family: 'Helvetica';
      font-size: 14px;
      color: #666;
      line-height: 1.4em;
-     max-width: 80%;
+     max-width: 100%;
 }
 
 .form-container{
      display: flex;
      flex-direction: column;
-     justify-content: center;
+     justify-content: space-between;
      align-items: center;
+     background-color: aliceblue;
+     border: 2px solid rgb(157, 200, 243);
+     max-width: 90vw;
+     /* padding: calc(8px + 1.5625vw); */
+     padding: 1em 3em;
 }
 
 .form {
      padding: 1em;
      border-radius: 4px;
-     background-color: aliceblue;
-     border: 2px solid rgb(157, 200, 243);
-     max-width: 100vw;
      display: flex;
      flex-direction: column;
      justify-content: center;
 }
+
+.visuallyhidden {
+     border: 0;
+     clip: rect(0 0 0 0);
+     height: 1px;
+     margin: -1px;
+     overflow: hidden;
+     padding: 0;
+     position: absolute;
+     width: 1px;
+   }
 
 #message{
      margin-top: 1em;
