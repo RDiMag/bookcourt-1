@@ -1,0 +1,22 @@
+{
+  "name": "bookcourt",
+  "version": "1.0.0",
+  "description": "bookcourt",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RDiMag/bookcourt.git"
+  },
+  "keywords": [
+    "bookcourt"
+  ],
+  "author": "rachel dimaggio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RDiMag/bookcourt/issues"
+  },
+  "homepage": "https://github.com/RDiMag/bookcourt#readme"
+}
